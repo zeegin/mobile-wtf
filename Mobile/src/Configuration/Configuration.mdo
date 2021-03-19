@@ -43,7 +43,5 @@
     <languageCode>ru</languageCode>
   </languages>
   <commonModules>CommonModule.ИнтеграционныйПЛК</commonModules>
-  <constants>Constant.ID</constants>
-  <commonForms>CommonForm.ФормаКонстант</commonForms>
   <commonForms>CommonForm.ФормаВводаЗаказаМелкая</commonForms>
 </mdclass:Configuration>
