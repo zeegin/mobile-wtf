@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d73fed9-79e4-4c73-81f0-708b8180f522">
+  <name>Управление_ПЛК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление ПЛК (мобильное)</value>
+  </synonym>
+  <comment>Конфигурация для управления работы ПЛК с мобильного устройства</comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="2a451e62-7655-49f4-bb1f-2b555cc63800"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="faf62d9d-6a3d-4d5f-bb9f-bb02aaaf8823"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="f2b99ef9-f01b-4b78-8546-9c3ad7aafdcb"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0933e41d-fb8f-4971-9887-220ff86acb62"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3d7dfcaa-fd7b-4c78-98f4-7e379dc3c2f2"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="d2725dbe-89e0-461b-97bc-fbc382077760"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="10e57edf-e7e3-4559-bc80-bef075987b1a"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Фирма ООО РК</vendor>
+  <version>1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <interfaceCompatibilityMode>Version8_2</interfaceCompatibilityMode>
+  <compatibilityMode>8.3.6</compatibilityMode>
+  <languages uuid="68964337-d785-4d95-81bd-681bd555e272">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.ОсновныеФункции</commonModules>
+  <constants>Constant.ID</constants>
+  <commonForms>CommonForm.РабочийСтол</commonForms>
+  <commonForms>CommonForm.ФормаАвторизации</commonForms>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <commonForms>CommonForm.ФормаУправленияПЛК</commonForms>
+  <commonForms>CommonForm.ФормаВводаЗаказа</commonForms>
+  <commonForms>CommonForm.ФормаВводаЗаказаМелкая</commonForms>
+</mdclass:Configuration>
