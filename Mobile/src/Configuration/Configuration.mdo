@@ -45,8 +45,6 @@
   <commonModules>CommonModule.ОсновныеФункции</commonModules>
   <commonModules>CommonModule.ИнтеграционныйПЛК</commonModules>
   <constants>Constant.ID</constants>
-  <commonForms>CommonForm.РабочийСтол</commonForms>
   <commonForms>CommonForm.ФормаКонстант</commonForms>
-  <commonForms>CommonForm.ФормаУправленияПЛК</commonForms>
   <commonForms>CommonForm.ФормаВводаЗаказаМелкая</commonForms>
 </mdclass:Configuration>
