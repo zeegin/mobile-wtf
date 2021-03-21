@@ -18,7 +18,7 @@
   <usePurposes>MobileDevice</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Фирма ООО РК</vendor>
-  <version>1</version>
+  <version>1.0.2</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
